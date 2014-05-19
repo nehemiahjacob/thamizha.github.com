@@ -4,16 +4,16 @@ layout: default
 
 <div class="home">
   <div class="hero-unit">
-    <h2>Free and Open Source Tamil Software</h2>
-    <p>We are a group of volunteers who develop, support and work to promote the usage of Tamil in computers.</p>
+    <h2>கட்டற்ற மற்றும் திறந்த மூல மென்பொருட்கள்</h2>
+    <p>நாங்கள் ஒரு தன்னார்வக் குழு - தமிழில் மென்பொருட்களின் உருவாக்கத்திற்கும் கணினிகளில் பயன்பாட்டிற்கும் அதன் வளர்ச்சிக்கும் தொடர்ந்து ஆதரவு அளித்து வருகிறோம்.</p>
     <p>
       <a class="btn btn-primary btn-large">
-        Learn more about us
+        எங்ளைப்பற்றி மெலும் தெரிந்துக்கொள்ள
       </a>
     </p>
   </div>
 
-  <h2>What's happening at Thamizha?</h2>
+  <h2>தமிழாவில் என்ன நடக்கிறது?</h2>
   <ul class="posts">
     {% for post in site.posts limit:10 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date_to_string }}</span></li>
